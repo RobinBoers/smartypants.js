@@ -1,4 +1,4 @@
-const tags_to_skip = /<(\/?)(?:pre|code|kbd|script|math)[^>]*>/i;
+const tags_to_skip = /<(\/?)(?:pre|code|kbd|script|style|math)[^>]*>/i;
 /**
  * @param text text to be parsed
  * @param attr value of the smart_quotes="" attribute

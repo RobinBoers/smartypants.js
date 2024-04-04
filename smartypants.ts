@@ -1,6 +1,6 @@
 type token = [string, string];
 
-const tags_to_skip = /<(\/?)(?:pre|code|kbd|script|math)[^>]*>/i;
+const tags_to_skip = /<(\/?)(?:pre|code|kbd|script|style|math)[^>]*>/i;
 
 
 /**

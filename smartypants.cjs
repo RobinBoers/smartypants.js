@@ -33,7 +33,7 @@
   "use strict";
   exports.__esModule = true;
   exports.smartypantsu = exports.smartellipses = exports.smartdashes = exports.smartquotes = exports.smartypants = void 0;
-  var tags_to_skip = /<(\/?)(?:pre|code|kbd|script|math)[^>]*>/i;
+  var tags_to_skip = /<(\/?)(?:pre|code|kbd|script|style|math)[^>]*>/i;
   /**
    * @param text text to be parsed
    * @param attr value of the smart_quotes="" attribute
